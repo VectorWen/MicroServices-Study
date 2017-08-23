@@ -13,6 +13,4 @@ public class C2AutoConfigApp {
      * 2. 不单单从 application.properties 获取配置，在程序中还有多种设置配置属性
      */
 
-    2017年08月22日14:55:06
-    明天接着看：http://www.bysocket.com/?p=1786
 }

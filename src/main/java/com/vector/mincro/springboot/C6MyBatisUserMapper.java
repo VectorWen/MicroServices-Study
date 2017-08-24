@@ -14,6 +14,10 @@ public interface C6MyBatisUserMapper {
 
     /*
      * 使用@Mapper 注解直接进入了MyBatis MapperRegister 里面
+     *
+     * 很可怕，很烦，MyBatis 的初始化是怎么进行的呢？啥都不知道哦。
+     * 一个注解就成功了，我得去弄清楚怎么回事
+     *
      */
 
     @Select("SELECT * FROM USER WHERE nickName = #{nickName}")
